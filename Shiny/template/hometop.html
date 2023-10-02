@@ -1,0 +1,48 @@
+<!-- banner -->
+<div id="homeBanner" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#homeBanner" data-slide-to="0" class="active"></li>
+    <li data-target="#homeBanner" data-slide-to="1"></li>
+  </ol>
+
+  <div class="carousel-inner" style="height:400px;">
+    <div class="item active">
+      <img src="img/home_bg_1.jpg" alt="Image 1" style="width:100%;height:400px;opacity:0.8;">
+      <div class="carousel-caption">
+        <h1>Our Realised Volatility Predictions</h1>
+        <p style="font-size:medium;">Try uploading your own CSV file to explore our four predictive models: Linear Regression, HAV-RV, ARMA-GARCH, and Random Forest.</p>
+        <a class="btn btn-success btn-lg" onclick="$('li:eq(1) a').tab('show');" role="button">Here &#62;</a>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="img/home_bg_2.jpg" alt="Image 2" style="width:100%;height:400px;opacity:0.8;">
+      <div class="carousel-caption">
+        <h1>Learn more about our models</h1>
+        <p style="font-size:medium;">Read a few short summaries of what exactly these predictive models are!</p>
+        <a class="btn btn-success btn-lg" onclick="$('li:eq(2) a').tab('show');" role="button">Here &#62;</a>
+      </div>
+    </div>
+  </div>
+
+  <a class="left carousel-control" href="#homeBanner" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#homeBanner" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+<!-- welcome & video -->
+<div class="container">
+  <div class="row text-center">
+    <h1 class="text-center welcome">Welcome</h1>
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <video controls style="max-height:400px;">
+        <source src="video/demo.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
+<!-- end -->
+<hr class="split">

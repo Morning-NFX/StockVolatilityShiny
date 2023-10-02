@@ -1,0 +1,27 @@
+<footer class="navbar navbar-fixed-bottom footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <p class="text-muted">&copy; DATA3888 Capstone Project Optiver 12</p>
+      </div>
+      <div class="col-sm-6 text-right">
+        <a href="#top" id="top-btn" class="btn btn-info">Back to top</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  $(window).scroll(function() {
+      if ($(this).scrollTop() > 0) {
+          $('#top-btn').fadeIn();
+      } else {
+          $('#top-btn').fadeOut();
+      }
+  });
+  
+  $('#top-btn').click(function() {
+      $('html, body').animate({scrollTop : 0},800);
+      return false;
+  });
+</script>
